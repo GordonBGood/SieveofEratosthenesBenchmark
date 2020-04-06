@@ -46,7 +46,7 @@ There is a zipped prebuilt signed (with a generated signing key not provided) AP
 
 Screenshot
 ----------
-![screenshot](screenshot.jpg)
+![screenshot](Screenshot.jpg)
 
 The above screenshot is from a Huawei Nova 2i with a HiSilicon Kirin 659 CPU; this CPU has 4/4 bit/little ARM Cortex A53 cores (total eight cores), and as shown a maximum core frequence of 2.36 GHz (for the fastest four cores).  By scaling this to the slowest commonly available smartphone with just four Cortex A53 cores (no "big/little"), which lack of the extra "big" cores menas about 25% in performance for this algorithm, we can reliably estimate that such smartphones will be able to perform this sieving for a two billion range in about 800 milliseconds.
 
