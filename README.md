@@ -42,7 +42,7 @@ Getting Started
 1. The above involves generating a signing store and key (one time), which can be done almost automatically with Android Studio.
 1. You could store the signing store key file in the root directory of this project.
 
-There is a zipped prebuilt signed (with a generated signing key not provided) APK installation file available in [the `app/release` directory]() that can be installed (side-loaded) on Android smartphones after unzipping if one trusts that it's contents reflect the source provided here; if one doesn't trust it, generate a new one as per the alternate process described above.
+There is a zipped prebuilt signed (with a generated signing key not provided) APK installation file available in [the `app/release` directory](https://github.com/GordonBGood/SieveofEratosthenesBenchmark/blob/master/app/release/SoEBenchmark.zip) that can be installed (side-loaded) on Android smartphones after unzipping if one trusts that it's contents reflect the source provided here; if one doesn't trust it, generate a new one as per the alternate process described above.
 
 Screenshot
 ----------
