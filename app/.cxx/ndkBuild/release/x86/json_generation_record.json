@@ -1,0 +1,74 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: x86",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\.cxx\\ndkBuild\\release\\x86\\android_gradle_build.json due to:",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- force flag, will remove stale json folder",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\.cxx\\ndkBuild\\release\\x86\u0027",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\.cxx\\ndkBuild\\release\\x86\u0027",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : C:\\Users\\Joe\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-23\nNDK_OUT\u003dD:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\build\\intermediates\\ndkBuild\\release\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : C:\\Users\\Joe\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-23\nNDK_OUT\u003dD:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\build\\intermediates\\ndkBuild\\release\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\.cxx\\ndkBuild\\release\\x86\\build_output.txt",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\.cxx\\ndkBuild\\release\\x86\\build_command.txt",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk",
+    "tag": "release|x86"
+  }
+]

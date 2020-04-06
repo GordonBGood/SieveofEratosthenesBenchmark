@@ -1,0 +1,65 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Joe\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Joe\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "primes-jni-release-x86_64": {
+      "buildCommand": "C:\\Users\\Joe\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003dD:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libprimes-jni.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "primes-jni",
+      "files": [
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mjni_wrapper.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mprimes_jni.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_io.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_locks.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_os.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sharedlist.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sugar.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_system.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_times.nim.c",
+          "flags": "-target x86_64-none-linux-android23 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libprimes-jni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "C:\\Users\\Joe\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

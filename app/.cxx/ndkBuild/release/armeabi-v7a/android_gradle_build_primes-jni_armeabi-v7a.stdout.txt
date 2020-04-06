@@ -1,0 +1,10 @@
+[armeabi-v7a] Compile thumb  : primes-jni <= @mjni_wrapper.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= @mprimes_jni.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_io.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_locks.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_os.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_sharedlist.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_sugar.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_system.nim.c
+[armeabi-v7a] Compile thumb  : primes-jni <= stdlib_times.nim.c
+[armeabi-v7a] SharedLibrary  : libprimes-jni.so

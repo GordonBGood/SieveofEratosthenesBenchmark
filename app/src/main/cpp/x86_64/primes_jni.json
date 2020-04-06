@@ -1,0 +1,23 @@
+{"compile":[
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_locks.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_locks.nim.c.o stdlib_locks.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sharedlist.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_sharedlist.nim.c.o stdlib_sharedlist.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_io.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_io.nim.c.o stdlib_io.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_system.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_system.nim.c.o stdlib_system.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_times.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_times.nim.c.o stdlib_times.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_os.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_os.nim.c.o stdlib_os.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mjni_wrapper.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o @mjni_wrapper.nim.c.o @mjni_wrapper.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sugar.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o stdlib_sugar.nim.c.o stdlib_sugar.nim.c"],
+["D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mprimes_jni.nim.c", "clang -c  -w -pthread -O3  -ID:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim -o @mprimes_jni.nim.c.o @mprimes_jni.nim.c"]],
+"link":[
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_locks.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sharedlist.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_io.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_system.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_times.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_os.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mjni_wrapper.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sugar.nim.c.o",
+"D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mprimes_jni.nim.c.o"
+],
+"linkcmd": "clang.exe   -o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\nim\\primes_jni  D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_locks.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sharedlist.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_io.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_system.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_times.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_os.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mjni_wrapper.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\stdlib_sugar.nim.c.o D:\\AndroidStudioProjects\\SieveofEratosthenesBenchmark\\app\\src\\main\\cpp\\x86_64\\@mprimes_jni.nim.c.o  -pthread -lm   -ldl"
+}

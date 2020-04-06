@@ -1,0 +1,10 @@
+[arm64-v8a] Compile        : primes-jni <= @mjni_wrapper.nim.c
+[arm64-v8a] Compile        : primes-jni <= @mprimes_jni.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_io.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_locks.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_os.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_sharedlist.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_sugar.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_system.nim.c
+[arm64-v8a] Compile        : primes-jni <= stdlib_times.nim.c
+[arm64-v8a] SharedLibrary  : libprimes-jni.so

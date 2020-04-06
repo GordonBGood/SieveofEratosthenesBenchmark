@@ -1,0 +1,2 @@
+rootProject.name='Sieve of Eratosthenes Benchmark'
+include ':app'
