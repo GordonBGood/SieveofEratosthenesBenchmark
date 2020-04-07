@@ -65,6 +65,7 @@ class MainActivity : AppCompatActivity() {
                     (if (mxfrqstr != "") (mxfrqstr.toDouble() / 1000000).toString() + " GHz."
                      else "unknown.")
         if (mxfrqstr != "") this.maxfreq = mxfrqstr.toDouble()
+        this.findViewById<TextView>(R.id.abi).text = "The CPU Android ABI is " + getAndroidABI()
         val aa = ArrayAdapter(this, android.R.layout.simple_spinner_item,
                                arrayOf("16 Kilobytes", "32 Kilobytes", "64 Kilobytes"))
         aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -98,6 +99,11 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
+    /*
+     * a native method to obtain the Android ABI string...
+     */
+    external fun getAndroidABI(): String
 
     /* A native method that is implemented by the
      * 'primes-jni' native library, which is packaged

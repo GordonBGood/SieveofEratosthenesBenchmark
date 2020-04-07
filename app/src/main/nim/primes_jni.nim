@@ -430,6 +430,21 @@ type
     cchsz: int
     nmprcs: int
 
+## This is a trivial JNI proc to return the Android ABI as a new VM String...
+proc Java_com_gordonbgood_sieveoferatosthenesbenchmark_MainActivity_getAndroidABI*(
+    envp: JNIEnvPtr, thiz: jobject): jstring {.cdecl,exportc,dynlib.} =
+  when defined(i386):
+    let ABI = "32-bit x86"
+  elif defined(amd64):
+    let ABI = "64-bit x86_64"
+  elif defined(arm):
+    let ABI = "32-bit armeabi-v7a"
+  elif defined(arm64):
+    let ABI = "64-bit arm64-v8a"
+  else:
+    let ABI = "unknown"
+  return envp.NewStringUTF(envp, ABI)
+
 # destroy a BckgrndThrdContxt properly...
 proc destroyBckgrndThrdCntxt(envp: JNIEnvPtr; btc: BckgrndThrdCntxt) =
   if btc.clzref != nil: envp.DeleteGlobalRef(envp, btc.clzref)

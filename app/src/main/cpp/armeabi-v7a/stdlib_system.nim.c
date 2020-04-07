@@ -4962,20 +4962,20 @@ N_LIB_PRIVATE N_NIMCALL(void, createThread__eISjSfd29bHA5AVcxQ0qkAA)(tyObject_Th
 	pthread_attr_setstacksize((&a), ((NI) 1044480));
 	{
 		int T4_;
-		tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw* eX60gensym332891_;
+		tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw* eX60gensym333091_;
 		NimStringDesc* T7_;
 		T4_ = (int)0;
 		T4_ = pthread_create((&(*t).sys), (&a), threadProcWrapper__oTnP9cUoE9cVTUL7iHAoIIAA, ((void*) (t)));
 		if (!!((T4_ == ((NI32) 0)))) goto LA5_;
-		eX60gensym332891_ = (tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw*)0;
-		eX60gensym332891_ = (tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw*) newObj((&NTI__M8bPR1OE5OXPYGyQdVHfTg_), sizeof(tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw));
-		(*eX60gensym332891_).Sup.Sup.Sup.m_type = (&NTI__KFG1Y2EPzgtJWwuYhMD0Fw_);
-		(*eX60gensym332891_).Sup.Sup.name = "ResourceExhaustedError";
+		eX60gensym333091_ = (tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw*)0;
+		eX60gensym333091_ = (tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw*) newObj((&NTI__M8bPR1OE5OXPYGyQdVHfTg_), sizeof(tyObject_ResourceExhaustedError__KFG1Y2EPzgtJWwuYhMD0Fw));
+		(*eX60gensym333091_).Sup.Sup.Sup.m_type = (&NTI__KFG1Y2EPzgtJWwuYhMD0Fw_);
+		(*eX60gensym333091_).Sup.Sup.name = "ResourceExhaustedError";
 		T7_ = (NimStringDesc*)0;
-		T7_ = (*eX60gensym332891_).Sup.Sup.message; (*eX60gensym332891_).Sup.Sup.message = copyStringRC1(((NimStringDesc*) &TM__Q5wkpxktOdTGvlSRo9bzt9aw_19));
+		T7_ = (*eX60gensym333091_).Sup.Sup.message; (*eX60gensym333091_).Sup.Sup.message = copyStringRC1(((NimStringDesc*) &TM__Q5wkpxktOdTGvlSRo9bzt9aw_19));
 		if (T7_) nimGCunrefNoCycle(T7_);
-		asgnRef((void**) (&(*eX60gensym332891_).Sup.Sup.parent), NIM_NIL);
-		raiseExceptionEx((Exception*)eX60gensym332891_, "ResourceExhaustedError", "createThread", "threads.nim", 319);
+		asgnRef((void**) (&(*eX60gensym333091_).Sup.Sup.parent), NIM_NIL);
+		raiseExceptionEx((Exception*)eX60gensym333091_, "ResourceExhaustedError", "createThread", "threads.nim", 319);
 	}
 	LA5_: ;
 }

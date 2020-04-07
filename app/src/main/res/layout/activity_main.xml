@@ -79,6 +79,18 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
+        android:id="@+id/abi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="The CPU Android ABI is unknown."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/maxfreq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
         android:id="@+id/labelLimit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="@+id/maxfreq"
         app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maxfreq" />
+        app:layout_constraintTop_toBottomOf="@+id/abi" />
 
     <EditText
         android:id="@+id/limit"
