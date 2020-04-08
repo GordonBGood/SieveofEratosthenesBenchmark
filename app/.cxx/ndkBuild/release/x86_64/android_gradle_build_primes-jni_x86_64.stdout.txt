@@ -1,10 +1,10 @@
 [x86_64] Compile        : primes-jni <= @mjni_wrapper.nim.c
 [x86_64] Compile        : primes-jni <= @mprimes_jni.nim.c
+[x86_64] Compile        : primes-jni <= stdlib_assertions.nim.c
 [x86_64] Compile        : primes-jni <= stdlib_io.nim.c
 [x86_64] Compile        : primes-jni <= stdlib_locks.nim.c
 [x86_64] Compile        : primes-jni <= stdlib_os.nim.c
 [x86_64] Compile        : primes-jni <= stdlib_sharedlist.nim.c
-[x86_64] Compile        : primes-jni <= stdlib_sugar.nim.c
 [x86_64] Compile        : primes-jni <= stdlib_system.nim.c
 [x86_64] Compile        : primes-jni <= stdlib_times.nim.c
 [x86_64] SharedLibrary  : libprimes-jni.so

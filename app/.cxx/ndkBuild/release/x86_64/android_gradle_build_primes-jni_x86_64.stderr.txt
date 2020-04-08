@@ -1,12 +1,12 @@
-D:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp/x86_64/stdlib_system.nim.c:4994:24: warning: passing 'unsigned long *' to parameter of type 'pthread_t *' (aka 'long *') converts between pointers to integer types with different sign [-Wpointer-sign]
-                T4_ = pthread_create((&(*t).sys), (&a), threadProcWrapper__oTnP9cUoE9cVTUL7iHAoIIAA, ((void*) (t)));
-                                     ^~~~~~~~~~~
+D:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp/x86_64/stdlib_system.nim.c:5381:25: warning: passing 'unsigned long *' to parameter of type 'pthread_t *' (aka 'long *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                T14_ = pthread_create((&(*t).sys), (&a), threadProcWrapper__oTnP9cUoE9cVTUL7iHAoIIAA, ((void*) (t)));
+                                      ^~~~~~~~~~~
 C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\pthread.h:170:31: note: passing argument to parameter '__pthread_ptr' here
 int pthread_create(pthread_t* __pthread_ptr, pthread_attr_t const* __attr, void* (*__start_routine)(void*), void*);
                               ^
-D:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp/x86_64/stdlib_system.nim.c:5081:24: warning: passing 'unsigned long *' to parameter of type 'pthread_t *' (aka 'long *') converts between pointers to integer types with different sign [-Wpointer-sign]
-                T4_ = pthread_create((&(*t).sys), (&a), threadProcWrapper__oTnP9cUoE9cVTUL7iHAoIIAA_2, ((void*) (t)));
-                                     ^~~~~~~~~~~
+D:/AndroidStudioProjects/SieveofEratosthenesBenchmark/app/src/main/cpp/x86_64/stdlib_system.nim.c:5495:25: warning: passing 'unsigned long *' to parameter of type 'pthread_t *' (aka 'long *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                T14_ = pthread_create((&(*t).sys), (&a), threadProcWrapper__oTnP9cUoE9cVTUL7iHAoIIAA_2, ((void*) (t)));
+                                      ^~~~~~~~~~~
 C:/Users/Joe/AppData/Local/Android/Sdk/ndk/20.0.5594570/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\pthread.h:170:31: note: passing argument to parameter '__pthread_ptr' here
 int pthread_create(pthread_t* __pthread_ptr, pthread_attr_t const* __attr, void* (*__start_routine)(void*), void*);
                               ^

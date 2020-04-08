@@ -28,7 +28,7 @@ Pre-requisites
 
 Getting Started
 ---------------
-1. [Install Nim](https://nim-lang.org/install.html) for your platform (tested with version 1.0.6).
+1. [Install Nim](https://nim-lang.org/install.html) for your platform (tested with version 1.2.0).
 1. [Download Android Studio](https://developer.android.com/sdk/index.html)
 1. Install Android Studio as per the instructions.
 1. Launch Android Studio.
